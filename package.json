@@ -1,9 +1,9 @@
 {
   "name": "components-demo-gatsby",
-  "version": "1.0.0",
-  "private": true,
-  "description": "components-demo-gatsby",
-  "author": "Miguel Beignon",
+  "author": "TwicPics <hello@twic.pics> (https://www.twicpics.com)",
+  "description": "Demonstration of TwicPics components in a Gatsby.js project.",
+  "license": "MIT",
+  "version": "0.0.1",
   "keywords": [
     "gatsby"
   ],
@@ -11,14 +11,22 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+    "serve": "yarn && gatsby clean && gatsby develop -p 3000",
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.3.2",
-    "gatsby-plugin-sass": "^6.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.56.2"
+    "@twicpics/components": "^0.14.1",
+    "gatsby": "5.3.2",
+    "gatsby-plugin-sass": "6.3.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "prettier": "2.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "1.56.2"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "gatsby-plugin-manifest": "^5.3.1"
   }
 }
