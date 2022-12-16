@@ -9,7 +9,7 @@ import "./index.scss";
 const TwicBasicGrid = () => {
   return (
     <div id="twic-basic-grid-container">
-      <TwicWrapper gitHubUrl="src/lib/twicBasicGrid/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/basic-grid/index.jsx">
         <TwicAbstract title="A basic example">
           <p>
             TwicPics is a Responsive Image Service Solution (SaaS) that enables

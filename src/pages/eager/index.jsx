@@ -49,7 +49,7 @@ const TwicEager = () => {
 
   return (
     <div id="twic-eager-container">
-      <TwicWrapper gitHubUrl="src/lib/twicEager/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/eager/index.jsx">
         <div className="demo-container">
           <TwicAbstract title="eager property">
             <p>

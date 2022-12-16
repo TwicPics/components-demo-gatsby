@@ -17,7 +17,7 @@ const TwicMode = () => {
   };
   return (
     <div id="twic-mode-container">
-      <TwicWrapper gitHubUrl="src/lib/twicMode/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/mode/index.jsx">
         <TwicAbstract title="mode property">
           <p>
             <strong>

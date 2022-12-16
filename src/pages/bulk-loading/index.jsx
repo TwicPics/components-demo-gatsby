@@ -36,7 +36,7 @@ const TwicBulkLoading = () => {
 
   return (
     <div id="twic-bulk-loading-container">
-      <TwicWrapper gitHubUrl="src/lib/twicBulkLoading/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/bulk-loading/index.jsx">
         <TwicAbstract title="Bulk loading">
           <p>
             With<Code>TwicImg</Code>and<Code>TwicVideo</Code>your medias will

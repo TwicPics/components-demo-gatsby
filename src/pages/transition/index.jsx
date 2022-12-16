@@ -18,7 +18,7 @@ const TwicTransition = () => {
   };
   return (
     <div id="twic-transition-container">
-      <TwicWrapper gitHubUrl="src/lib/twicTransition/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/transition/index.jsx">
         <TwicAbstract title="transition properties">
           <p>
             <strong>

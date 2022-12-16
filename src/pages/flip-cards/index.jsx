@@ -42,7 +42,7 @@ const cards = [
 const TwicFlipCards = () => {
   return (
     <div id="twic-flip-card-container">
-      <TwicWrapper gitHubUrl="src/lib/twicFlipCards/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/flip-cards/index.jsx">
         <TwicAbstract title="Flip cards">
           <p>Move your mouse over the images below.</p>
         </TwicAbstract>

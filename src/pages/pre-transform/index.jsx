@@ -10,7 +10,7 @@ const imgUrl = `components/man-hiding-his-hands.jpg`;
 const TwicPreTransform = () => {
   return (
     <div id="twic-pretransform-container">
-      <TwicWrapper gitHubUrl="src/lib/twicPreTransform/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/pre-transform/index.jsx">
         <TwicAbstract title="preTransform property">
           <p>
             <Code>preTransform</Code>is a slash-separated list of TwicPics API

@@ -41,7 +41,7 @@ const TwicBot = () => {
   });
   return (
     <div id="twic-bot-container">
-      <TwicWrapper gitHubUrl="src/lib/twicBot/index.jsx">
+      <TwicWrapper gitHubUrl="src/pages/bot/index.jsx">
         <TwicAbstract title="bot property">
           <p>
             <strong>
