@@ -1,6 +1,6 @@
 # TwicPics Components + Gatsby
 
-This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/gatsby#gatsby?utm_source=github&utm_medium=organic&utm_campaign=components) using [Gatsby](https://www.gatsbyjs.com/).
+This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/gatsby?utm_source=github&utm_medium=organic&utm_campaign=components) using [Gatsby](https://www.gatsbyjs.com/).
 
 ## How to build
 
@@ -79,7 +79,7 @@ TwicPics components for `Gatsby` comes as an `Gatsby Plugin` and is configured a
 
 An example of configuration is set within `gatsby-config.js` file.
 
-All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/gatsby#setup-options)).
+All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/gatsby?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
 
 ## Examples
 
