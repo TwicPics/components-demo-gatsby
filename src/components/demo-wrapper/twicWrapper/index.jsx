@@ -10,7 +10,9 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
   const GITHUB = `https://github.com/TwicPics/components-demo-gatsby`;
   const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`;
   const onlineUrl = `${ONLINE_URL}${gitHubUrl || "README.md"}`;
-  const gitHubRedirect = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
+  const gitHubRedirect = gitHubUrl
+    ? `${GITHUB}/blob/main/${gitHubUrl}`
+    : GITHUB;
   return (
     <div id="twic-demo-wrapper">
       <header id="twic-header">
@@ -22,7 +24,11 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
               alt="TwicPics logo"
             />
             <span>x</span>
-            <img className="framework-logo" src={frameworkLogo} alt="React Logo" />
+            <img
+              className="framework-logo"
+              src={frameworkLogo}
+              alt="React Logo"
+            />
           </h1>
         </a>
         <div className="ribbon">
@@ -33,17 +39,6 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
               rel="noreferrer"
               title="Open in Github">
               <img className="github" src={githubLogo} alt="Open in Github" />
-            </a>
-            <a
-              target="_blank"
-              href={onlineUrl}
-              rel="noreferrer"
-              title="Open in StackBlitz">
-              <img
-                className="github"
-                src={stackBlitzLogo}
-                alt="Open in StackBlitz"
-              />
             </a>
           </div>
         </div>
