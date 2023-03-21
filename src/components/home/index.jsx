@@ -163,7 +163,7 @@ export const Home = () => (
           <h3>{category.title}</h3>
           <div className="twic-grid">
             {category.items.map((item, j) => (
-              <Link href={item.route} key={`useCase ${j}`}>
+              <Link to={item.route} key={`useCase ${j}`}>
                 <figure className="twic-item">
                   {item.imgSrc ? (
                     <TwicImg

@@ -1921,8 +1921,10 @@
   resolved "https://registry.npmjs.org/@turist/time/-/time-0.0.2.tgz"
   integrity sha512-qLOvfmlG2vCVw5fo/oz8WAZYlpe5a5OurgTj3diIxJCdjRHpapC+vQCz3er9LV79Vcat+DifBjeAhOAdmndtDQ==
 
-"@twicpics/components@../../components/dist":
-  version "0.15.1"
+"@twicpics/components@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.16.0.tgz#8c049e6fbab4b07840b1bb9c3f04b29d9ffbbf2e"
+  integrity sha512-h4gpcV+OpBakjIizMfVDZp9gkQDXNf/gwj3LlLzFrOrY9vDs4fl5dvaIfzi61tvWlrccs4abuisFulNsTX0r1w==
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.3"
