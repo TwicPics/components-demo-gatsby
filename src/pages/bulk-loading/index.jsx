@@ -66,13 +66,15 @@ const TwicBulkLoading = () => {
         <TwicView>
           <div className="polaroids" onClick={changeImage}>
             <div
-              className={`polaroid bottom ${current % 2 === 0 ? `left` : ``}`}>
+              className={`polaroid bottom ${current % 2 === 0 ? `left` : ``}`}
+            >
               <TwicImg src={images[penultimate].url} />
             </div>
             <div
               className={`polaroid bottom previous ${
                 (current - 1) % 2 === 0 ? `left` : ``
-              }`}>
+              }`}
+            >
               <TwicImg src={images[last].url} />
             </div>
             {images.map((image, i) => (
@@ -80,7 +82,8 @@ const TwicBulkLoading = () => {
                 className={`polaroid ${i === current ? `top` : ``} ${
                   i % 2 === 0 ? `left` : ``
                 }`}
-                key={i}>
+                key={i}
+              >
                 <TwicImg src={image.url} />
               </div>
             ))}

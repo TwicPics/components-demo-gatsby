@@ -33,7 +33,8 @@
     z-index: 2;
 
     &.left {
-      transform: rotate(+2deg) translate(calc(-1 * $pola-width / 2 - 30px), +30px);
+      transform: rotate(+2deg)
+        translate(calc(-1 * $pola-width / 2 - 30px), +30px);
     }
   }
 

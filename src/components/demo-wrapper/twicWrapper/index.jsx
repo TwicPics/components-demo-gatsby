@@ -37,7 +37,8 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
               target="_blank"
               href={gitHubRedirect}
               rel="noreferrer"
-              title="Open in Github">
+              title="Open in Github"
+            >
               <img className="github" src={githubLogo} alt="Open in Github" />
             </a>
           </div>
@@ -48,7 +49,8 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
             href={documentationUrl}
             target="_blank"
             className="documentation-link tag tag--bg-purple-rain"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Documentation
           </a>
         </div>

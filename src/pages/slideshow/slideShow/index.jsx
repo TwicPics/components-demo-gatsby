@@ -41,11 +41,13 @@ const Slideshow = ({ images = [] }) => {
     <div
       className="slideshow"
       onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}>
+      onMouseLeave={() => setPaused(false)}
+    >
       <button
         className="slick-prev slick-arrow"
         onClick={() => updateIndex(activeIndex - 1)}
-        disabled={!imageReady}>
+        disabled={!imageReady}
+      >
         &#8249;
       </button>
       <div className="twic-item">
@@ -56,7 +58,8 @@ const Slideshow = ({ images = [] }) => {
               style={{
                 // eslint-disable-next-line no-magic-numbers
                 transform: `translateX(-${activeIndex * 100}%)`,
-              }}>
+              }}
+            >
               {images.map((image, i) => (
                 <div className="item" key={i}>
                   <TwicImg
@@ -78,14 +81,16 @@ const Slideshow = ({ images = [] }) => {
               onClick={() => {
                 updateIndex(i);
               }}
-              disabled={!imageReady}></button>
+              disabled={!imageReady}
+            ></button>
           </li>
         ))}
       </ul>
       <button
         className="slick-next slick-arrow"
         onClick={() => updateIndex(activeIndex + 1)}
-        disabled={!imageReady}>
+        disabled={!imageReady}
+      >
         &#8250;
       </button>
     </div>

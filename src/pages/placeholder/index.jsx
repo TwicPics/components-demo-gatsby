@@ -50,14 +50,14 @@ const TwicPlaceholder = () => {
         <div className="twic-testing-container">
           <button
             className="twic-button"
-            onClick={() => setShowPlaceholders(!showPlaceholders)}>
+            onClick={() => setShowPlaceholders(!showPlaceholders)}
+          >
             {toggleBtnText}
           </button>
         </div>
         <div
-          className={`twic-grid ${
-            showPlaceholders ? `show-placeholders` : ``
-          }`}>
+          className={`twic-grid ${showPlaceholders ? `show-placeholders` : ``}`}
+        >
           <div className="twic-item">
             <TwicImg src={imgUrl} placeholder="preview" />
             <span>
