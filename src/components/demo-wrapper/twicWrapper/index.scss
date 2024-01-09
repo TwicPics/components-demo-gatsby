@@ -127,7 +127,11 @@ $height: 100px;
     & div {
       color: #fff;
       display: block;
-      font: bold 81.25% "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font:
+        bold 81.25% "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
       width: 1.42 * $height;
       line-height: $ribbon-height;
       text-align: center;

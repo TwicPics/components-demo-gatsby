@@ -17,10 +17,10 @@ const TwicPosition = () => {
 
   const changePosition = () => {
     setHorizontalPositionIndex(
-      (horizontalPositionIndex + 1) % horizontalPositionArray.length
+      (horizontalPositionIndex + 1) % horizontalPositionArray.length,
     );
     setVerticalPositionIndex(
-      (verticalPositionIndex + 1) % verticalPositionArray.length
+      (verticalPositionIndex + 1) % verticalPositionArray.length,
     );
   };
   return (
