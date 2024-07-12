@@ -16,7 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@twicpics/components": "0.29.2",
+    "@twicpics/components": "0.29.3",
     "gatsby": "5.13.6",
     "gatsby-plugin-sass": "6.13.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
